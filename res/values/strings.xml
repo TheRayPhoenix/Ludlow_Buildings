@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">LudlowBuildings</string>
+    <string name="str_title">Town of Ludlow, MA</string>
+    <string name="str_subTitle">Major Buildings</string>
+    <string name="str_byLine">Ray Phoenix\nCIT-116</string>
+    <string name="str_descSeal">Town of Ludlow Seal</string>
+    <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
 </resources>

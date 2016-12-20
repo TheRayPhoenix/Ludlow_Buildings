@@ -10,4 +10,46 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.rayphoenix.ludlowbuildings.SplashActivity">
 
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/str_title"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/tvSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_subTitle"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/ivLargeSeal"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/str_descSeal"
+        android:src="@drawable/seal_large" />
+
+    <TextView
+        android:id="@+id/tvByLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivLargeSeal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:text="@string/str_byLine"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp"
+        tools:ignore="RelativeOverlap" />
+
 </RelativeLayout>
