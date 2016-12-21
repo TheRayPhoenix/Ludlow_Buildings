@@ -45,8 +45,8 @@ public class DummyContent {
      * A dummy item representing a piece of content.
      */
     public static class DummyItem {
-        public String id;
-        public String content;
+        public final String id;
+        public final String content;
         public String itemName;
         public String itemURL;
 
