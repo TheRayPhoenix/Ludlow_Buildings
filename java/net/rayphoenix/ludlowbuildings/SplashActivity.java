@@ -14,7 +14,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-/*
+
         //Generate and start MediaPlayer with ten second clip of "Closer To The Heart" opening
         final MediaPlayer mpSplash;
         mpSplash = MediaPlayer.create(this, R.raw.splashtrack);
@@ -33,7 +33,6 @@ public class SplashActivity extends AppCompatActivity {
             }
         };
         Timer opening = new Timer();
-        opening.schedule(task,10000); // <- 10 seconds*/
-        startActivity(new Intent(SplashActivity.this, ItemListActivity.class));
+        opening.schedule(task,10000); // <- 10 seconds
     }
 }
