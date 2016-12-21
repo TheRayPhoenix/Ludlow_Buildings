@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 import android.widget.TextView;
 
 import net.rayphoenix.ludlowbuildings.dummy.DummyContent;
@@ -59,9 +60,44 @@ public class ItemDetailFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.item_detail, container, false);
 
-        // Show the dummy content as text in a TextView.
-        if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.item_detail)).setText(mItem.details);
+        if (mItem.id.equals("1")) {
+            rootView = inflater.inflate(R.layout.townhall, container, false);
+        }
+
+        if (mItem.id.equals("2")) {
+            rootView = inflater.inflate(R.layout.publicworks, container, false);
+        }
+
+        if (mItem.id.equals("3")) {
+            rootView = inflater.inflate(R.layout.hubbardlibrary, container, false);
+        }
+
+        if (mItem.id.equals("4")) {
+            rootView = inflater.inflate(R.layout.schooldept, container, false);
+        }
+
+        if (mItem.id.equals("5")) {
+            rootView = inflater.inflate(R.layout.school_elementary_east, container, false);
+        }
+
+        if (mItem.id.equals("6")) {
+            rootView = inflater.inflate(R.layout.school_elementary_chapin, container, false);
+        }
+
+        if (mItem.id.equals("7")) {
+            rootView = inflater.inflate(R.layout.school_elementary_vets_park, container, false);
+        }
+
+        if (mItem.id.equals("8")) {
+            rootView = inflater.inflate(R.layout.school_baird_middle, container, false);
+        }
+
+        if (mItem.id.equals("9")) {
+            rootView = inflater.inflate(R.layout.school_high_school, container, false);
+        }
+
+        if (mItem.id.equals("10")) {
+            ((WebView)rootView.findViewById(R.id.item_detail)).loadUrl(mItem.itemURL);
         }
 
         return rootView;
