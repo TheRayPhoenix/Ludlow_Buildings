@@ -21,6 +21,10 @@
     <string name="str_bldg_HubbardLibrary_Phone">(413) 583&#8211;3408</string>
     <string name="str_bldg_HubbardLibrary_Address">24 Center Street\nLudlow, MA 01056</string>
 
+    <string name="str_bldg_SeniorCenter_Name">Senior Center</string>
+    <string name="str_bldg_SeniorCenter_Phone">(413) 583&#8211;3564</string>
+    <string name="str_bldg_SeniorCenter_Address">39 Chestnut Street\nLudlow, MA 01056</string>
+
     <string name="str_bldg_SchoolDept_Name">School Department</string>
     <string name="str_bldg_SchoolDept_Phone">(413) 583&#8211;8372</string>
     <string name="str_bldg_SchoolDept_Address">63 Chestnut Street\nLudlow, MA 01056</string>

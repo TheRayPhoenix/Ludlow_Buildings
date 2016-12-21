@@ -5,48 +5,48 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tvSchoolMiddleName"
+        android:id="@+id/tvSeniorCenterName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="15dp"
-        android:text="@string/str_bldg_SchoolMiddle_Name"
+        android:text="@string/str_bldg_SeniorCenter_Name"
         android:textColor="?android:attr/textColorPrimary"
         android:textSize="48sp" />
 
     <TextView
-        android:id="@+id/tvSchoolMiddleAddress"
+        android:id="@+id/tvSeniorCenterAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@id/tvSchoolMiddleName"
+        android:layout_below="@id/tvSeniorCenterName"
         android:layout_marginTop="10dp"
-        android:text="@string/str_bldg_SchoolMiddle_Address"
+        android:text="@string/str_bldg_SeniorCenter_Address"
         android:textColor="?android:attr/textColorSecondary"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/tvSchoolMiddlePhone"
+        android:id="@+id/tvSeniorCenterPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@id/tvSchoolMiddleAddress"
+        android:layout_below="@id/tvSeniorCenterAddress"
         android:layout_marginTop="15dp"
-        android:text="@string/str_bldg_SchoolMiddle_Phone"
+        android:text="@string/str_bldg_SeniorCenter_Phone"
         android:textColor="?android:attr/textColorSecondary"
         android:textSize="30sp" />
 
     <ImageView
         android:layout_width="500dp"
-        android:layout_height="217dp"
+        android:layout_height="307dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/tvSchoolMiddlePhone"
+        android:layout_below="@+id/tvSeniorCenterPhone"
         android:layout_marginTop="20dp"
-        android:contentDescription="@string/str_bldg_SchoolMiddle_Name"
-        app:srcCompat="@drawable/bldg_middleschool" />
+        android:contentDescription="@string/str_bldg_SeniorCenter_Name"
+        app:srcCompat="@drawable/bldg_seniorcenter" />
 </RelativeLayout>

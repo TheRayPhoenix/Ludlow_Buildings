@@ -26,14 +26,15 @@ public class DummyContent {
     static {
         addItem(new DummyItem("1", "Town Hall"));
         addItem(new DummyItem("2", "Public Works"));
-        addItem(new DummyItem("3", "Hubbard Library"));
-        addItem(new DummyItem("4", "School Dept."));
-        addItem(new DummyItem("5", "East St. School"));
-        addItem(new DummyItem("6", "Chapin St. School"));
-        addItem(new DummyItem("7", "Vets Park School"));
-        addItem(new DummyItem("8", "Baird Middle School"));
-        addItem(new DummyItem("9", "Ludlow High School"));
-        addItem(new DummyItem("10", "Town Website", "http://www.ludlow.ma.us"));
+        addItem(new DummyItem("3", "Hubbard Memorial Library"));
+        addItem(new DummyItem("4", "Senior Center"));
+        addItem(new DummyItem("5", "School Department"));
+        addItem(new DummyItem("6", "East Street School"));
+        addItem(new DummyItem("7", "Chapin Street School"));
+        addItem(new DummyItem("8", "Veterans Park School"));
+        addItem(new DummyItem("9", "Baird Middle School"));
+        addItem(new DummyItem("10", "Ludlow High School"));
+        addItem(new DummyItem("11", "Town Website", "http://www.ludlow.ma.us"));
     }
 
     private static void addItem(DummyItem item) {
