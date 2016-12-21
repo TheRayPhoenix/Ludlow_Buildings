@@ -48,15 +48,15 @@ public class DummyContent {
     public static class DummyItem {
         public final String id;
         public final String content;
-        public String itemName;
+        String itemName;
         public String itemURL;
 
-        public DummyItem(String id, String content) {
+        DummyItem(String id, String content) {
             this.id = id;
             this.content = content;
         }
 
-        public DummyItem(String id, String item_content, String item_url) {
+        DummyItem(String id, String item_content, String item_url) {
             this.id = id;
             this.content = item_content;
             this.itemName = item_content;

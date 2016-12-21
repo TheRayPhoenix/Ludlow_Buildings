@@ -72,30 +72,34 @@ public class ItemDetailFragment extends Fragment {
         }
 
         if (mItem.id.equals("4")) {
-            rootView = inflater.inflate(R.layout.schooldept, container, false);
+            rootView = inflater.inflate(R.layout.seniorcenter, container, false);
         }
 
         if (mItem.id.equals("5")) {
-            rootView = inflater.inflate(R.layout.school_elementary_east, container, false);
+            rootView = inflater.inflate(R.layout.schooldept, container, false);
         }
 
         if (mItem.id.equals("6")) {
-            rootView = inflater.inflate(R.layout.school_elementary_chapin, container, false);
+            rootView = inflater.inflate(R.layout.school_elementary_east, container, false);
         }
 
         if (mItem.id.equals("7")) {
-            rootView = inflater.inflate(R.layout.school_elementary_vets_park, container, false);
+            rootView = inflater.inflate(R.layout.school_elementary_chapin, container, false);
         }
 
         if (mItem.id.equals("8")) {
-            rootView = inflater.inflate(R.layout.school_baird_middle, container, false);
+            rootView = inflater.inflate(R.layout.school_elementary_vets_park, container, false);
         }
 
         if (mItem.id.equals("9")) {
-            rootView = inflater.inflate(R.layout.school_high_school, container, false);
+            rootView = inflater.inflate(R.layout.school_baird_middle, container, false);
         }
 
         if (mItem.id.equals("10")) {
+            rootView = inflater.inflate(R.layout.school_high_school, container, false);
+        }
+
+        if (mItem.id.equals("11")) {
             ((WebView)rootView.findViewById(R.id.item_detail)).loadUrl(mItem.itemURL);
         }
 
