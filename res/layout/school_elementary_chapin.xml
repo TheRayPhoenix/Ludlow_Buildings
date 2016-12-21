@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/header"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tvSchoolChapinName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/layoutHeader"
+        android:layout_marginTop="15dp"
+        android:text="@string/str_bldg_SchoolChapin_Name"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/tvSchoolChapinAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/tvSchoolChapinName"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_bldg_SchoolChapin_Address"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvSchoolChapinPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/tvSchoolChapinAddress"
+        android:layout_marginTop="15dp"
+        android:text="@string/str_bldg_SchoolChapin_Phone"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="221dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvSchoolChapinPhone"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/str_bldg_SchoolChapin_Name"
+        app:srcCompat="@drawable/bldg_elem_chapin" />
+</RelativeLayout>

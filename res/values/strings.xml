@@ -15,7 +15,7 @@
 
     <string name="str_bldg_PublicWorks_Name">Department of Public Works</string>
     <string name="str_bldg_PublicWorks_Phone">(413) 583&#8211;5625</string>
-    <string name="str_bldg_PublicWorks_Address">198 Sportsmen's Road\nLudlow, MA 01056</string>
+    <string name="str_bldg_PublicWorks_Address">198 Sportsmen\'s Road\nLudlow, MA 01056</string>
 
     <string name="str_bldg_HubbardLibrary_Name">Hubbard Memorial Library</string>
     <string name="str_bldg_HubbardLibrary_Phone">(413) 583&#8211;3408</string>

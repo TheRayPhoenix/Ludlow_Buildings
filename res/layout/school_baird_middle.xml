@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/header"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tvSchoolMiddleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/layoutHeader"
+        android:layout_marginTop="15dp"
+        android:text="@string/str_bldg_SchoolMiddle_Name"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/tvSchoolMiddleAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/tvSchoolMiddleName"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_bldg_SchoolMiddle_Address"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvSchoolMiddlePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/tvSchoolMiddleAddress"
+        android:layout_marginTop="15dp"
+        android:text="@string/str_bldg_SchoolMiddle_Phone"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="217dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvSchoolMiddlePhone"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/str_bldg_SchoolMiddle_Name"
+        app:srcCompat="@drawable/bldg_middleschool" />
+</RelativeLayout>
