@@ -1,9 +1,47 @@
 <resources>
     <string name="app_name">LudlowBuildings</string>
+
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
     <string name="str_title">Town of Ludlow, MA</string>
     <string name="str_subTitle">Major Buildings</string>
     <string name="str_byLine">Ray Phoenix\nCIT-116</string>
     <string name="str_descSeal">Town of Ludlow Seal</string>
-    <string name="title_item_list">Items</string>
-    <string name="title_item_detail">Item Detail</string>
+
+    <string name="str_bldg_TownHall_Name">Town Hall</string>
+    <string name="str_bldg_TownHall_Phone">(413) 583&#8211;5600</string>
+    <string name="str_bldg_TownHall_Address">488 Chapin Street\nLudlow, MA 01056</string>
+
+    <string name="str_bldg_PublicWorks_Name">Department of Public Works</string>
+    <string name="str_bldg_PublicWorks_Phone">(413) 583&#8211;5625</string>
+    <string name="str_bldg_PublicWorks_Address">198 Sportsmen's Road\nLudlow, MA 01056</string>
+
+    <string name="str_bldg_HubbardLibrary_Name">Hubbard Memorial Library</string>
+    <string name="str_bldg_HubbardLibrary_Phone">(413) 583&#8211;3408</string>
+    <string name="str_bldg_HubbardLibrary_Address">24 Center Street\nLudlow, MA 01056</string>
+
+    <string name="str_bldg_SchoolDept_Name">School Department</string>
+    <string name="str_bldg_SchoolDept_Phone">(413) 583&#8211;8372</string>
+    <string name="str_bldg_SchoolDept_Address">63 Chestnut Street\nLudlow, MA 01056</string>
+
+    <string name="str_bldg_SchoolChapin_Name">Chapin Street Elementary School</string>
+    <string name="str_bldg_SchoolChapin_Phone">(413) 583&#8211;5031</string>
+    <string name="str_bldg_SchoolChapin_Address">766 Chapin Street\nLudlow, MA 01056</string>
+
+    <string name="str_bldg_SchoolEast_Name">East Street Elementary School</string>
+    <string name="str_bldg_SchoolEast_Phone">(413) 589&#8211;9121</string>
+    <string name="str_bldg_SchoolEast_Address">508 East Street\nLudlow, MA 01056</string>
+
+    <string name="str_bldg_SchoolVets_Name">Veterans Park Elementary School</string>
+    <string name="str_bldg_SchoolVets_Phone">(413) 583&#8211;5695</string>
+    <string name="str_bldg_SchoolVets_Address">486 Chapin Street\nLudlow, MA 01056</string>
+
+    <string name="str_bldg_SchoolMiddle_Name">Paul R. Baird Middle School</string>
+    <string name="str_bldg_SchoolMiddle_Phone">(413) 583&#8211;5685</string>
+    <string name="str_bldg_SchoolMiddle_Address">Rooney Road\nLudlow, MA 01056</string>
+
+    <string name="str_bldg_SchoolHigh_Name">Ludlow High School</string>
+    <string name="str_bldg_SchoolHigh_Phone">(413) 589&#8211;9001</string>
+    <string name="str_bldg_SchoolHigh_Address">500 Chapin Street\nLudlow, MA 01056</string>
 </resources>
