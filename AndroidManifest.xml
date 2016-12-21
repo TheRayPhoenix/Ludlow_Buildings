@@ -30,17 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TownHall" />
-        <activity
-            android:name=".PublicWorks"
-            android:label="@string/title_activity_public_works"
-            android:theme="@style/AppTheme" />
-        <activity android:name=".SchoolDepartment" />
-        <activity android:name=".School_Elementary_Chapin" />
-        <activity android:name=".School_Elementary_EastStreet" />
-        <activity android:name=".School_Elementary_VetsPark" />
-        <activity android:name=".School_BairdMiddle" />
-        <activity android:name=".School_HighSchool"></activity>
     </application>
 
 </manifest>

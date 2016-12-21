@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        app:srcCompat="@drawable/seal_small"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ivSmallSeal"
+        android:layout_height="75dp"
+        android:contentDescription="@string/str_descSeal" />
+
+    <TextView
+        android:text="@string/str_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivSmallSeal"
+        android:layout_toEndOf="@+id/ivSmallSeal"
+        android:id="@+id/tvHeaderTitle"
+        android:textSize="35sp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/str_subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHeaderTitle"
+        android:layout_toRightOf="@+id/ivSmallSeal"
+        android:layout_toEndOf="@+id/ivSmallSeal"
+        android:id="@+id/tvHeaderSubTitle"
+        android:textSize="20sp" />
+</RelativeLayout>
